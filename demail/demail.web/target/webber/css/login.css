@@ -1,0 +1,55 @@
+#loginInput {
+    position: relative;
+    width: 100%;
+    padding: 6px 0 8px;
+    }
+    
+table {
+    width: 30%;
+    min-height: 150px;
+    border-collapse: collapse;
+    margin: 40px auto;
+    padding: 10px;
+    border: solid 1px #d8d8d8;
+    }
+
+.label{
+    width: 1%;
+    padding: 10px 10px 5px;
+    vertical-align: top;
+    white-space: nowrap;
+    }
+
+td .inp{
+    height: 23px;
+    border: 1px solid #d8d8d8;
+    padding-left: 3px;
+    width: 90%;
+    margin: 0 auto;
+    }
+    
+td .entr{
+    height: 25px;
+    border: 1px solid #d8d8d8;
+    padding: 2px 13px;
+    margin: 0 auto;
+    color: #00030d;
+    text-decoration: none;
+    background: #f0f0f0;
+    }  
+
+td div {
+    position: relative;
+    }    
+
+#errorblock {
+    color: #ff0000;
+    }
+
+#errormessage {
+    color: #ff0000;
+    }    
+    
+#goodblock {
+    color: #2c603d;
+    }

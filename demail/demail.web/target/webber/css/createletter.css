@@ -1,0 +1,140 @@
+aside {
+    height: 100%;
+    margin: 0px ;
+    float:left;
+    width:10%;
+    background: #d9e6da;
+    border-right: 1px solid #acccb9;
+    }  
+
+aside ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    }
+    
+aside ul li {
+    float: left; 
+    display: block; 
+    margin: 0; 
+    width: 100%;    
+    }
+
+aside a {
+    color: #505050;
+    display: block;
+    height: 25px;
+    text-decoration: none;
+    width: 100%;   
+    }
+    
+aside a:hover, aside a:active {
+    background: #5273a5;
+    color: #fff;
+    text-shadow: none;
+    }
+        
+#letterBlock {
+    width: 60%;
+    height: 100%;
+    display: inline;
+    }
+
+#letterBlock textarea {
+    width: 100%;
+    display: block;
+    }
+    
+#topBlock { 
+    display: table; 
+    height: 100%;
+    }    
+#topBlock section { 
+    vertical-align: top; 
+    display: table-cell; 
+    }
+    
+#letterBlock {
+    width: 90%;
+    height: 100%;
+    display: table;
+    position: absolute;
+    padding-left: 1px;
+    right: 0;
+    }
+    
+#letterBlock nav {
+    height: 5%;
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    border-bottom: 1px solid #acccb9;
+    min-height: 23px;
+    background: #d9e6da; 
+    border-left: 1px solid #acccb9;
+    }   
+
+#letterBlock nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+#letterBlock nav li {
+    display: inline;
+    padding: 0 0 0 10px;
+    }    
+    
+#letterBlock nav ul li :hover {
+    background: #fbec5d;
+    }
+    
+#letterBlock a {
+    text-decoration: none;
+    color: #06132f;
+    }
+
+#letterBlock section {
+    padding: 10px;
+    height: 100%;
+    }    
+    
+#letterBlock section textarea {
+    width: 100%;
+    height: 70%;
+    }
+    
+#toLabel {
+    width: 1%;
+    padding: 10px 10px 5px;
+    vertical-align: top;
+    white-space: nowrap;
+    }
+
+#toInputArea {
+    position: relative;
+    width: 100%;
+    padding: 6px 0 8px;
+    }
+
+td input {
+    height: 23px;
+    border: 1px solid #d8d8d8;
+    padding-left: 3px;
+    width: 100%;
+    margin: 0;
+    }
+
+td div {
+    position: relative;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    }
+  
+#errorblock {
+    color: #ff0000;
+    }    

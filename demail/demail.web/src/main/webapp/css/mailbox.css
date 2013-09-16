@@ -1,0 +1,173 @@
+aside {
+    height: 100%;
+    min-height: 100%;
+    margin: 0px ;
+    float:left;
+    width:10%;
+    background: #d9e6da;
+    }  
+
+aside ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    }
+    
+aside ul li {
+    float: left; 
+    display: block; 
+    margin: 0; 
+    width: 100%;    
+    }
+
+aside a {
+    color: #505050;
+    display: block;
+    height: 25px;
+    text-decoration: none;
+    width: 100%;   
+    }
+    
+aside a:hover, aside a:active {
+    background: #5273a5;
+    color: #fff;
+    text-shadow: none;
+    }
+    
+ol {
+    padding: 10px;    
+    }    
+    
+#letterlist {
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #acccb9;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #d8d8d8;
+    margin-bottom: 2em;
+    overflow: hidden;
+    padding: 0px 20px;
+    width: 35%;
+    height: 100%;
+}    
+    
+.letterDescription {
+    padding: 1.0em 1.5em;
+    }
+
+#letters li {
+    border-bottom: 1px solid #eee;
+    }    
+    
+li:last-child .letterDescription, #letterlist > .letterDescription {
+    border: 0; 
+    margin: 0;
+    }
+
+#letterlist > .letterDescription {
+    padding: 1em 0;
+    }
+ 
+.letterDescription .letter-info * {
+    font-style: normal;
+    }
+
+.letterDescription footer {
+    margin-bottom: 8px;
+    }
+    
+.letterDescription footer address {
+    display: inline;
+    }
+    
+#letters footer address {
+    display: block;
+    padding: 2px;
+    }
+    
+#letters {
+    list-style: none; 
+    margin: 0;
+    }
+    
+#letters li {
+    padding-left: 200px; 
+    position: relative;
+    }
+    
+#letters li a {
+    text-decoration: none;   
+    color: #06132f;
+    }
+    
+address {
+    padding: 1.0em 1.5em;
+    }    
+
+#letters footer {
+	left: 10px;
+	position: absolute;
+	top: 8px;
+	}    
+        
+#letterPlace {
+    width: 40%;
+    height: 100%;
+    display: inline;
+    }
+
+#letterPlace article {
+    width: 100%;
+    display: inline
+    }
+    
+#topBlock { 
+    display: table; 
+    height: 100%;
+    width: 90%;
+    }    
+#topBlock section { 
+    vertical-align: top; 
+    display: table-cell; 
+    }
+    
+#letterPlace nav {
+    height: 5%;
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    border-bottom: 1px solid #acccb9;
+    border-left: 1px solid #acccb9;
+    min-height: 23px;
+    background: #d9e6da;
+    color: #505050;
+    }   
+
+#letterPlace nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+#letterPlace nav li {
+    display: inline;
+    padding: 0 0 0 10px;
+    }    
+    
+#letterPlace nav ul li :hover {
+    background: #fbec5d;
+    }
+    
+#letterPlace a {
+    text-decoration: none;
+    color: #06132f;
+    }
+    
+#letterText {
+    padding: 5px;
+    }    
+    
+abbr {
+    color: #808080
+    }

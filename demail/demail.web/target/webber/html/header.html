@@ -1,0 +1,27 @@
+<canvas id="myCanvas">
+    Your browser does not support the HTML5 canvas tag.
+</canvas>
+<script>
+    var c=document.getElementById("myCanvas");
+    var ctx=c.getContext("2d");
+    ctx.font="35pt Arial";
+    ctx.fillStyle = "#fff";
+    ctx.fillRect(0, 0, 200, 45);
+
+    var grd=ctx.createLinearGradient(0,0,200,0);
+    grd.addColorStop(0,"#fbec5d");
+    grd.addColorStop(1,"#697cbd");
+    ctx.fillStyle = grd;
+    ctx.baseLine = 'top';
+    ctx.fillText('DeMail', 25, 39);
+    //ctx.strokeStyle = "#fbec5d";
+    //ctx.beginPath();
+    //ctx.moveTo(0, c.height-2);
+    //ctx.lineTo(c.width, c.height-2);
+    //ctx.stroke();
+    //ctx.strokeStyle = "#7493bd";
+    //ctx.beginPath();
+    //ctx.moveTo(0, c.height-1);
+    //ctx.lineTo(c.width, c.height-1);
+    //ctx.stroke();
+</script>
